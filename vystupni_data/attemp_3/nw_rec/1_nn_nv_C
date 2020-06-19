@@ -1,0 +1,12 @@
+s1: CACTTCT
+s2: TCAACCT
+lenght of s1: 6
+lenght of s2: 6
+--CACTTCT
+  .||.|
+TCAACCT
+score: 7
+time: 293.000000
+saving time: 47.000000
+getting time: 70.000000
+creating time: 30.000000

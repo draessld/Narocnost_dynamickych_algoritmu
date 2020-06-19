@@ -1,0 +1,39 @@
+==53093== Memcheck, a memory error detector
+==53093== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==53093== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==53093== Command: ./../datasets/ws_basic/ws_bt_C_basic.out ../sekvence1p/33_nn.txt
+==53093== 
+==53093== Invalid read of size 4
+==53093==    at 0x109994: alignSequence(char*, char*, int, int, int**) (in /home/dominika/dyn_prog_sequence_alignment_bachelor_workspace/datasets/ws_basic/ws_bt_C_basic.out)
+==53093==    by 0x10A2F4: main (in /home/dominika/dyn_prog_sequence_alignment_bachelor_workspace/datasets/ws_basic/ws_bt_C_basic.out)
+==53093==  Address 0x1700000001 is not stack'd, malloc'd or (recently) free'd
+==53093== 
+==53093== 
+==53093== Process terminating with default action of signal 11 (SIGSEGV)
+==53093==  Access not within mapped region at address 0x1700000001
+==53093==    at 0x109994: alignSequence(char*, char*, int, int, int**) (in /home/dominika/dyn_prog_sequence_alignment_bachelor_workspace/datasets/ws_basic/ws_bt_C_basic.out)
+==53093==    by 0x10A2F4: main (in /home/dominika/dyn_prog_sequence_alignment_bachelor_workspace/datasets/ws_basic/ws_bt_C_basic.out)
+==53093==  If you believe this happened as a result of a stack
+==53093==  overflow in your program's main thread (unlikely but
+==53093==  possible), you can try to increase the size of the
+==53093==  main thread stack using the --main-stacksize= flag.
+==53093==  The main thread stack size used in this run was 8388608.
+s1:  GATCAAGTCATTTTGCTGAATAAGCATATTGACGCATACAAAACATTCCCACCAACAGAGCCTAAAAAGGACAAAAAGAAGAAGGCTGATGAAACTCAAGCCTTACCGCAGAGACAGAAGAAACAGCAAACTGTGACTCTTCTTCCTGCTGCAGATTTGGATGATTTCTCCAAACAATTGCAACAATCCATGAGCAGTGCTGACTCAACTCAGGCCTAAACTCATGCAGACCACACAAGGCAGATGGGCTATATAAACGTTTTCGCTTTTCCGTTTACGATATATAGTCTACTCTTGTGCAGAATGAATTCTCGTAACTACATAGCACAAGTAGATGTAGTTAACTTTAATCTCACATAGCAATCTTTAATCAGTGTGTAACATTAGGGAGGACTTGAAAGAGCCACCACATTTTCACCGAGGCCACGCGGAGTACGATCGAGTGTACAGTGAACAATGCTAGGGAGAGCTGCCTATATGGAAGAGCCCTAATGTGTAAAATTAATTTTAGTAGTGCTATCCCCATGTGATTTTAATAGCT
+s2:  CATACAAAACATTCCCACCAACAGAGCCTAAAAAGGACAAAAAGAAAAAGGCTGATGAAACTCAAGCCTTACCGCAGAGACAGAAGAAACAGCAAACTGTGACTCTTCTTCCTGCTGCAGATTTGGATGACTTCTCCAAACAATTGCAACAATCCATGAGCAGTGCTGATTCAACTCAGGCCTAAACTCATGCAGACCACACAAGGCAGATGGGCTATATAAACGTTTTCGCTTTTCCGTTTACGATATATAGTCTACTCTTGTGCAGAATGAATTCTCGTAACTACATAGCACAAGTAGATGTAGTTAACCTTAATCTCACATAGCAATCTTTAATCAGTGTGTAACATTAGGGAGGACTTGAAAGAGCCACCACATTTTCACCGAGGCCACGCGGAGTACGATCGAGGGTACAGTGAATAATGCTAGGGAGAGCTGCCTATATGGAAGAGCCCTAATGTGTAAAATTAATTTTAGTAGTGCTATCCCATGTGATTTTAATAGCTTCTTAGGAGAATGACAAAAAAAAAAAAAAAAAAAA
+lenght of s1: 541
+lenght of s2: 541
+==53093== 
+==53093== HEAP SUMMARY:
+==53093==     in use at exit: 1,180,672 bytes in 545 blocks
+==53093==   total heap usage: 561 allocs, 16 frees, 1,263,316 bytes allocated
+==53093== 
+==53093== LEAK SUMMARY:
+==53093==    definitely lost: 0 bytes in 0 blocks
+==53093==    indirectly lost: 0 bytes in 0 blocks
+==53093==      possibly lost: 0 bytes in 0 blocks
+==53093==    still reachable: 1,180,672 bytes in 545 blocks
+==53093==         suppressed: 0 bytes in 0 blocks
+==53093== Rerun with --leak-check=full to see details of leaked memory
+==53093== 
+==53093== For lists of detected and suppressed errors, rerun with: -s
+==53093== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)

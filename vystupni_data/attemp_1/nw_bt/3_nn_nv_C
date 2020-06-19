@@ -1,0 +1,9 @@
+s1:  CGCGGAGTACGATCGAGTGTA
+s2:  TAGGGAGAGCTGCCTATATGG
+lenght of s1: 21
+lenght of s2: 21
+-CGCGGAGTACGATCGAGTGTA-
+ .| ||||..|...|.| |.|. 
+TAG-GGAGAGCTGCCTA-TATGG
+score: -13
+time 139 us

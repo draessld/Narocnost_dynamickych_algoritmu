@@ -1,0 +1,12 @@
+s1: CGCGGAGTACGATCGAGTGTA
+s2: TAGGGAGAGCTGCCTATATGG
+lenght of s1: 20
+lenght of s2: 20
+CGCGGAGTACGATCGAGTGTA
+                   ||
+-------------------TAGGGAGAGCTGCCTATATGG
+score: 10
+time: 1254.000000
+saving time: 232.000000
+getting time: 422.000000
+creating time: 55.000000

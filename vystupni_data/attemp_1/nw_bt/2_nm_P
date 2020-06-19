@@ -1,0 +1,10 @@
+s1: TTTAATTGTTACTTTC
+s2: CTTTATAGAT
+lenght of s1: 16
+lenght of s2: 10
+-TTTAATTGTTACTTTC
+ ||| |    || ..| 
+CTTT-A----TA-GAT-
+score: -1
+time: 2859.243000000511 us
+total memory allocated: 32014336 [B]

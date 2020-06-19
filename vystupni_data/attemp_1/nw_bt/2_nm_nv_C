@@ -1,0 +1,9 @@
+s1:  TTTAATTGTTACTTTC
+s2:  CTTTATAGAT
+lenght of s1: 16
+lenght of s2: 10
+-TTTAATTGTTACTTTC
+ ||| |    || ..| 
+CTTT-A----TA-GAT-
+score: -1
+time 71 us

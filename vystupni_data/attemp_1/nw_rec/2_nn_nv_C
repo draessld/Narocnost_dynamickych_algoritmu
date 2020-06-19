@@ -1,0 +1,12 @@
+s1: ACATTCTCTCT
+s2: TGTTAACTTAG
+lenght of s1: 10
+lenght of s2: 10
+ACATTCTCTCT
+        |.|
+--------TGTTAACTTAG
+score: 6
+time: 698.000000
+saving time: 116.000000
+getting time: 202.000000
+creating time: 44.000000

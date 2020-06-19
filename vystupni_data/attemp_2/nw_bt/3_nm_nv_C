@@ -1,0 +1,9 @@
+s1:  TTTAGATTTCATCTAAACGAACAAAC
+s2:  CTGATAATGG
+lenght of s1: 26
+lenght of s2: 10
+TTTAGATTTCATCTAAACGAACAAAC
+            ||    ||..|...
+------------CT----GATAATGG
+score: -21
+time 117 us

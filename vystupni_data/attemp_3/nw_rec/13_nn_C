@@ -1,0 +1,26 @@
+==59508== Memcheck, a memory error detector
+==59508== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==59508== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==59508== Command: ./../datasets/nw_rec_new/nw_rec_C.out ../sekvence1p/13_nn.txt
+==59508== 
+s1: AATGGGCTAGATTCCCTAAGAGTGATGGAACTGGTACTATCTATACAGAACTGGAACCACCTTGTAGGTTTGTTACAGACACACCTAAAGGTCCTAAAGTGAAGTATTTATACTTTATTAAAGGATTAAACAACCTAAATA
+s2: AGAGTGATGGAACTGGTACTATCTATACAGAACTGGAACCACCTTGTAGGTTTGTTACAGACACACCTAAAGGTCCTAAAGTGAAGTATTTATACTTTATTAAAGGATTAAACAATCTAAATAGAGGTATGGTACTTGGTA
+lenght of s1: 140
+lenght of s2: 140
+AATGGGCTAGATTCCCTAAGAGTGATGGAACTGGTACTATCTATACAGAACTGGAACCACCTTGTAGGTTTGTTACAGACACACCTAAAGGTCCTAAAGTGAAGTATTTATACTTTATTAAAGGATTAAACAACCTAAATA
+                  |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||.|||||||
+------------------AGAGTGATGGAACTGGTACTATCTATACAGAACTGGAACCACCTTGTAGGTTTGTTACAGACACACCTAAAGGTCCTAAAGTGAAGTATTTATACTTTATTAAAGGATTAAACAATCTAAATAGAGGTATGGTACTTGGTA
+score: 606
+time: 878849.000000
+saving time: 222490.000000
+getting time: 427634.000000
+creating time: 7707.000000
+==59508== 
+==59508== HEAP SUMMARY:
+==59508==     in use at exit: 0 bytes in 0 blocks
+==59508==   total heap usage: 185,531 allocs, 185,531 frees, 29,871,172 bytes allocated
+==59508== 
+==59508== All heap blocks were freed -- no leaks are possible
+==59508== 
+==59508== For lists of detected and suppressed errors, rerun with: -s
+==59508== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

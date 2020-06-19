@@ -1,0 +1,10 @@
+s1: TT
+s2: TA
+lenght of string s1: 2
+lenght of string s2: 2
+ATT-
+ ||
+-TTA
+score:  10
+time: 63.43300000022367 us
+total memory allocated: 31776768 [B]

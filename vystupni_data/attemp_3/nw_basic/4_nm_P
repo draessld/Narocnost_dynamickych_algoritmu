@@ -1,0 +1,10 @@
+s1: ATAAATTAGAAGGCTATGCCTTCGAACATATCGTTT
+s2: CCTTCGAACA
+lenght of s1: 36
+lenght of s2: 10
+ATAAATTAGAAGGCTATGCCTTCGAACATATCG-TTT
+                          |.| ||| ...
+--------------------------CCT-TCGAACA
+score: -37
+time: 644.3279999999163 us
+total memory allocated: 31789056 [B]

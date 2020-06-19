@@ -1,0 +1,9 @@
+s1:  ATAAATTAGAAGGCTATGCCTTCGAACATATCGTTT
+s2:  CCTTCGAACA
+lenght of s1: 36
+lenght of s2: 10
+ATAAATTAGAAGGCTATGCCTTCGAACATATCGTTT
+                  |||||||||  |      
+------------------CCTTCGAAC--A------
+score: 14
+time 65 us

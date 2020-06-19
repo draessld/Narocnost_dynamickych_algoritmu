@@ -1,0 +1,23 @@
+==51081== Memcheck, a memory error detector
+==51081== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==51081== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==51081== Command: ./../datasets/ws_basic/ws_bt_C_basic.out ../sekvence1p/22_nm.txt
+==51081== 
+s1:  TGTCTATGTGATAGACGTGCCACATGCTTTTCCACTGCTTCAGACACTTATGCCTGTTGGCATCATTCTATTGGATTTGATTACGTCTATAATCCGTTTATGATTGATGTTCAACAATGGGGTTTTACAGGTAACCTACAAAGCAACCATGATCTGTATTGTCAAGTCCATGGTAATGCACATGTAGCTAGTTGTGATGCAATCATGACTAGGTGTCTAGCTGTCCACGAGTGCTTTGTTAAGCGTGTTGACTGGACTATTGAATATCCTATAATTGGTGATGAACTGAAGATTAATGCGGCTTGTAGAAAGGTTCAACACATGGTTGTTA
+s2:  GCCACATGCT
+lenght of s1: 331
+lenght of s2: 10
+GCCACATGCT
+||||||||||
+GCCACATGCT
+score: 50
+time 6072 us
+==51081== 
+==51081== HEAP SUMMARY:
+==51081==     in use at exit: 0 bytes in 0 blocks
+==51081==   total heap usage: 346 allocs, 346 frees, 99,948 bytes allocated
+==51081== 
+==51081== All heap blocks were freed -- no leaks are possible
+==51081== 
+==51081== For lists of detected and suppressed errors, rerun with: -s
+==51081== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

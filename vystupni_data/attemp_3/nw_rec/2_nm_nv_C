@@ -1,0 +1,12 @@
+s1: TTTAATTGTTACTTTC
+s2: CTTTATAGAT
+lenght of s1: 15
+lenght of s2: 9
+-TTTAATGTTACTTTC
+ |||| .|.|
+CTTTA-AGAT
+score: 17
+time: 929.000000
+saving time: 155.000000
+getting time: 265.000000
+creating time: 59.000000

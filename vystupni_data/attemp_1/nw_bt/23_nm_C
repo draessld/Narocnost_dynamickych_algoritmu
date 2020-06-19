@@ -1,0 +1,23 @@
+==30380== Memcheck, a memory error detector
+==30380== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==30380== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==30380== Command: ./../datasets/nw_bt_n2d/nw_bt_C_n2d.out ../sekvence1p/23_nm.txt
+==30380== 
+s1:  ATATCACGTCAACGTCTTACTAAATACACAATGGCAGACCTCGTCTATGCTTTAAGGCATTTTGATGAAGGTAATTGTGACACATTAAAAGAAATACTTGTCACATACAATTGTTGTGATGATGATTATTTCAATAAAAAGGACTGGTATGATTTTGTAGAAAACCCAGATATATTACGCGTATACGCCAACTTAGGTGAACGTGTACGCCAAGCTTTGTTAAAAACAGTACAATTCTGTGATGCCATGCGAAATGCTGGTATTGTTGGTGTACTGACATTAGATAATCAAGATCTCAATGGTAACTGGTATGATTTCGGTGATTTCATACAAACCACGCCAGGTAGTGGA
+s2:  ACTAAATACA
+lenght of s1: 351
+lenght of s2: 10
+ATATCACGTCAACGTCTTACTAAATACACAATGGCAGACCTCGTCTATGCTTTAAGGCATTTTGATGAAGGTAATTGTGACACATTAAAAGAAATACTTGTCACATACAATTGTTGTGATGATGATTATTTCAATAAAAAGGACTGGTATGATTTTGTAGAAAACCCAGATATATTACGCGTATACGCCAACTTAGGTGAACGTGTACGCCAAGCTTTGTTAAAAACAGTACAATTCTGTGATGCCATGCGAAATGCTGGTATTGTTGGTGTACTGACATTAGATAATCAAGATCTCAATGGTAACTGGTATGATTTCGGTGATTTCATACAAACCACGCCAGGTAGTGGA
+                                                                                                                                                                                                                                                                                                                ||     | |        |    ||       |   |         |
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------AC-----T-A--------A----AT-------A---C---------A
+score: -301
+time 25285 us
+==30380== 
+==30380== HEAP SUMMARY:
+==30380==     in use at exit: 0 bytes in 0 blocks
+==30380==   total heap usage: 367 allocs, 367 frees, 102,452 bytes allocated
+==30380== 
+==30380== All heap blocks were freed -- no leaks are possible
+==30380== 
+==30380== For lists of detected and suppressed errors, rerun with: -s
+==30380== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

@@ -1,0 +1,39 @@
+==79510== Memcheck, a memory error detector
+==79510== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==79510== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==79510== Command: ./../datasets/ws_basic/ws_bt_C_basic.out ../sekvence1p/33_nn.txt
+==79510== 
+==79510== Invalid read of size 4
+==79510==    at 0x109994: alignSequence(char*, char*, int, int, int**) (in /home/dominika/dyn_prog_sequence_alignment_bachelor_workspace/datasets/ws_basic/ws_bt_C_basic.out)
+==79510==    by 0x10A2F4: main (in /home/dominika/dyn_prog_sequence_alignment_bachelor_workspace/datasets/ws_basic/ws_bt_C_basic.out)
+==79510==  Address 0x1700000001 is not stack'd, malloc'd or (recently) free'd
+==79510== 
+==79510== 
+==79510== Process terminating with default action of signal 11 (SIGSEGV)
+==79510==  Access not within mapped region at address 0x1700000001
+==79510==    at 0x109994: alignSequence(char*, char*, int, int, int**) (in /home/dominika/dyn_prog_sequence_alignment_bachelor_workspace/datasets/ws_basic/ws_bt_C_basic.out)
+==79510==    by 0x10A2F4: main (in /home/dominika/dyn_prog_sequence_alignment_bachelor_workspace/datasets/ws_basic/ws_bt_C_basic.out)
+==79510==  If you believe this happened as a result of a stack
+==79510==  overflow in your program's main thread (unlikely but
+==79510==  possible), you can try to increase the size of the
+==79510==  main thread stack using the --main-stacksize= flag.
+==79510==  The main thread stack size used in this run was 8388608.
+s1:  GATCAAGTCATTTTGCTGAATAAGCATATTGACGCATACAAAACATTCCCACCAACAGAGCCTAAAAAGGACAAAAAGAAGAAGGCTGATGAAACTCAAGCCTTACCGCAGAGACAGAAGAAACAGCAAACTGTGACTCTTCTTCCTGCTGCAGATTTGGATGATTTCTCCAAACAATTGCAACAATCCATGAGCAGTGCTGACTCAACTCAGGCCTAAACTCATGCAGACCACACAAGGCAGATGGGCTATATAAACGTTTTCGCTTTTCCGTTTACGATATATAGTCTACTCTTGTGCAGAATGAATTCTCGTAACTACATAGCACAAGTAGATGTAGTTAACTTTAATCTCACATAGCAATCTTTAATCAGTGTGTAACATTAGGGAGGACTTGAAAGAGCCACCACATTTTCACCGAGGCCACGCGGAGTACGATCGAGTGTACAGTGAACAATGCTAGGGAGAGCTGCCTATATGGAAGAGCCCTAATGTGTAAAATTAATTTTAGTAGTGCTATCCCCATGTGATTTTAATAGCT
+s2:  CATACAAAACATTCCCACCAACAGAGCCTAAAAAGGACAAAAAGAAAAAGGCTGATGAAACTCAAGCCTTACCGCAGAGACAGAAGAAACAGCAAACTGTGACTCTTCTTCCTGCTGCAGATTTGGATGACTTCTCCAAACAATTGCAACAATCCATGAGCAGTGCTGATTCAACTCAGGCCTAAACTCATGCAGACCACACAAGGCAGATGGGCTATATAAACGTTTTCGCTTTTCCGTTTACGATATATAGTCTACTCTTGTGCAGAATGAATTCTCGTAACTACATAGCACAAGTAGATGTAGTTAACCTTAATCTCACATAGCAATCTTTAATCAGTGTGTAACATTAGGGAGGACTTGAAAGAGCCACCACATTTTCACCGAGGCCACGCGGAGTACGATCGAGGGTACAGTGAATAATGCTAGGGAGAGCTGCCTATATGGAAGAGCCCTAATGTGTAAAATTAATTTTAGTAGTGCTATCCCATGTGATTTTAATAGCTTCTTAGGAGAATGACAAAAAAAAAAAAAAAAAAAA
+lenght of s1: 541
+lenght of s2: 541
+==79510== 
+==79510== HEAP SUMMARY:
+==79510==     in use at exit: 1,180,672 bytes in 545 blocks
+==79510==   total heap usage: 561 allocs, 16 frees, 1,263,316 bytes allocated
+==79510== 
+==79510== LEAK SUMMARY:
+==79510==    definitely lost: 0 bytes in 0 blocks
+==79510==    indirectly lost: 0 bytes in 0 blocks
+==79510==      possibly lost: 0 bytes in 0 blocks
+==79510==    still reachable: 1,180,672 bytes in 545 blocks
+==79510==         suppressed: 0 bytes in 0 blocks
+==79510== Rerun with --leak-check=full to see details of leaked memory
+==79510== 
+==79510== For lists of detected and suppressed errors, rerun with: -s
+==79510== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)

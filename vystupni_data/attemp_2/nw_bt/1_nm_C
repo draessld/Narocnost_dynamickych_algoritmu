@@ -1,0 +1,38 @@
+==52204== Memcheck, a memory error detector
+==52204== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==52204== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==52204== Command: ./../datasets/nw_bt_n2d/nw_bt_C_n2d.out ../sekvence1p/1_nm.txt
+==52204== 
+==52204== Invalid write of size 1
+==52204==    at 0x109F7B: main (in /home/dominika/dyn_prog_sequence_alignment_bachelor_workspace/datasets/nw_bt_n2d/nw_bt_C_n2d.out)
+==52204==  Address 0x4dfbc8a is 0 bytes after a block of size 10 alloc'd
+==52204==    at 0x483677F: malloc (in /usr/lib64/valgrind/vgpreload_memcheck-amd64-linux.so)
+==52204==    by 0x109EC2: main (in /home/dominika/dyn_prog_sequence_alignment_bachelor_workspace/datasets/nw_bt_n2d/nw_bt_C_n2d.out)
+==52204== 
+==52204== Invalid read of size 1
+==52204==    at 0x4839C94: strlen (in /usr/lib64/valgrind/vgpreload_memcheck-amd64-linux.so)
+==52204==    by 0x4C93805: __vfprintf_internal (in /lib64/libc-2.30.so)
+==52204==    by 0x4C7E64A: printf (in /lib64/libc-2.30.so)
+==52204==    by 0x10A047: main (in /home/dominika/dyn_prog_sequence_alignment_bachelor_workspace/datasets/nw_bt_n2d/nw_bt_C_n2d.out)
+==52204==  Address 0x4dfbc8a is 0 bytes after a block of size 10 alloc'd
+==52204==    at 0x483677F: malloc (in /usr/lib64/valgrind/vgpreload_memcheck-amd64-linux.so)
+==52204==    by 0x109EC2: main (in /home/dominika/dyn_prog_sequence_alignment_bachelor_workspace/datasets/nw_bt_n2d/nw_bt_C_n2d.out)
+==52204== 
+s1:  AAACCACGC
+s2:  GAGTTCCTAT
+lenght of s1: 9
+lenght of s2: 10
+-AAACCACGC
+ |...|....
+GAGTTCCTAT
+score: -19
+time 4467 us
+==52204== 
+==52204== HEAP SUMMARY:
+==52204==     in use at exit: 0 bytes in 0 blocks
+==52204==   total heap usage: 19 allocs, 19 frees, 82,040 bytes allocated
+==52204== 
+==52204== All heap blocks were freed -- no leaks are possible
+==52204== 
+==52204== For lists of detected and suppressed errors, rerun with: -s
+==52204== ERROR SUMMARY: 2 errors from 2 contexts (suppressed: 0 from 0)

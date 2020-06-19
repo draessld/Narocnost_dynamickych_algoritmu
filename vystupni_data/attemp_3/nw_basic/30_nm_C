@@ -1,0 +1,23 @@
+==40841== Memcheck, a memory error detector
+==40841== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==40841== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==40841== Command: ./../datasets/nw_basic/nw_bt_C_basic.out ../sekvence1p/30_nm.txt
+==40841== 
+s1:  TGGTCATGTGTGGCGGTTCACTATATGTTAAACCAGGTGGAACCTCATCAGGAGATGCCACAACTGCTTATGCTAATAGTGTTTTTAACATTTGTCAAGCTGTCACGGCCAATGTTAATGCACTTTTATCTACTGATGGTAACAAAATTGCCGATAAGTATGTCCGCAATTTACAACACAGACTTTATGAGTGTCTCTATAGAAATAGAGATGTTGACACAGACTTTGTGAATGAGTTTTACGCATATTTGCGTAAACATTTCTCAATGATGATACTCTCTGACGATGCTGTTGTGTGTTTCAATAGCACTTATGCATCTCAAGGTCTAGTGGCTAGCATAAAGAACTTTAAGTCAGTTCTTTATTATCAAAACAATGTTTTTATGTCTGAAGCAAAATGTTGGACTGAGACTGACCTTACTAAAGGACCTCATGAATTTTGCTCTCAACATACAATGCTAGTTAAACAGGGTGATGATTATGTGTACCTT
+s2:  CACTATATGT
+lenght of s1: 491
+lenght of s2: 10
+TGGTCATGTGTGGCGGTTCACTATATGTTAAACCAGGTGGAACCTCATCAGGAGATGCCACAACTGCTTATGCTAATAGTGTTTTTAACATTTGTCAAGCTGTCACGGCCAATGTTAATGCACTTTTATCTACTGATGGTAACAAAATTGCCGATAAGTATGTCCGCAATTTACAACACAGACTTTATGAGTGTCTCTATAGAAATAGAGATGTTGACACAGACTTTGTGAATGAGTTTTACGCATATTTGCGTAAACATTTCTCAATGATGATACTCTCTGACGATGCTGTTGTGTGTTTCAATAGCACTTATGCATCTCAAGGTCTAGTGGCTAGCATAAAGAACTTTAAGTCAGTTCTTTATTATCAAAACAATGTTTTTATGTCTGAAGCAAAATGTTGGACTGAGACTGACCTTACTAAAGGACCTCATGAATTTTGCTCTCAACATACAATGCTAGTTAAACAGGGTGATGATTATGTGTACCT-T
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  ...||..| |
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------CACTATATGT
+score: -492
+time 5590 us
+==40841== 
+==40841== HEAP SUMMARY:
+==40841==     in use at exit: 0 bytes in 0 blocks
+==40841==   total heap usage: 507 allocs, 507 frees, 110,292 bytes allocated
+==40841== 
+==40841== All heap blocks were freed -- no leaks are possible
+==40841== 
+==40841== For lists of detected and suppressed errors, rerun with: -s
+==40841== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

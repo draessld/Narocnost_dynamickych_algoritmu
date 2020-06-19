@@ -1,0 +1,23 @@
+==69622== Memcheck, a memory error detector
+==69622== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==69622== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==69622== Command: ./../datasets/nw_bt_n2d/nw_bt_C_n2d.out ../sekvence1p/35_nm.txt
+==69622== 
+s1:  AAAGACACAGAAAAGTACTGTGCCCTTGCACCTAATATGATGGTAACAAACAATACCTTCACACTCAAAGGCGGTGCACCAACAAAGGTTACTTTTGGTGATGACACTGTGATAGAAGTGCAAGGTTACAAGAGTGTGAATATCACTTTTGAACTTGATGAAAGGATTGATAAAGTACTTAATGAGAAGTGCTCTGCCTATACAGTTGAACTCGGTACAGAAGTAAATGAGTTCGCCTGTGTTGTGGCAGATGCTGTCATAAAAACTTTGCAACCAGTATCTGAATTACTTACACCACTGGGCATTGATTTAGATGAGTGGAGTATGGCTACATACTACTTATTTGATGAGTCTGGTGAGTTTAAATTGGCTTCACATATGTATTGTTCTTTCTACCCTCCAGATGAGGATGAAGAAGAAGGTGATTGTGAAGAAGAAGAGTTTGAGCCATCAACTCAATATGAGTATGGTACTGAAGATGATTACCAAGGTAAACCTTTGGAATTTGGTGCCACTTCTGCTGCTCTTCAACCTGAAGAAGAGCAAGAAGAAGATTGGTTAGATGATGATAGTCAACAAACTGTTGGTCAA
+s2:  TACTGTGCCC
+lenght of s1: 591
+lenght of s2: 10
+AAAGACACAGAAAAGTACTGTGCCCTTGCACCTAATATGATGGTAACAAACAATACCTTCACACTCAAAGGCGGTGCACCAACAAAGGTTACTTTTGGTGATGACACTGTGATAGAAGTGCAAGGTTACAAGAGTGTGAATATCACTTTTGAACTTGATGAAAGGATTGATAAAGTACTTAATGAGAAGTGCTCTGCCTATACAGTTGAACTCGGTACAGAAGTAAATGAGTTCGCCTGTGTTGTGGCAGATGCTGTCATAAAAACTTTGCAACCAGTATCTGAATTACTTACACCACTGGGCATTGATTTAGATGAGTGGAGTATGGCTACATACTACTTATTTGATGAGTCTGGTGAGTTTAAATTGGCTTCACATATGTATTGTTCTTTCTACCCTCCAGATGAGGATGAAGAAGAAGGTGATTGTGAAGAAGAAGAGTTTGAGCCATCAACTCAATATGAGTATGGTACTGAAGATGATTACCAAGGTAAACCTTTGGAATTTGGTGCCACTTCTGCTGCTCTTCAACCTGAAGAAGAGCAAGAAGAAGATTGGTTAGATGATGATAGTCAACAAACTGTTGGTCAA
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               ||.    || | |    |   |       |  
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------TAC----TG-T-G----C---C-------C--
+score: -541
+time 55096 us
+==69622== 
+==69622== HEAP SUMMARY:
+==69622==     in use at exit: 0 bytes in 0 blocks
+==69622==   total heap usage: 607 allocs, 607 frees, 115,892 bytes allocated
+==69622== 
+==69622== All heap blocks were freed -- no leaks are possible
+==69622== 
+==69622== For lists of detected and suppressed errors, rerun with: -s
+==69622== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

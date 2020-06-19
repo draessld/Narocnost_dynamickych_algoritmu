@@ -1,0 +1,9 @@
+s1:  AAACCACGC
+s2:  GAGTTCCTAT
+lenght of s1: 9
+lenght of s2: 10
+-AAACCACGC
+ |...|....
+GAGTTCCTAT
+score: -19
+time 11 us

@@ -1,0 +1,10 @@
+s1: ACTGACCAGTCTTCTTACATCGTTGATAGTG
+s2: ATTGTTGACAGTGTTACAGTGAAGAATGGTT
+lenght of string s1: 31
+lenght of string s2: 31
+ATCGTTGATAGTG
+||.|||||.||||
+ATTGTTGACAGTG
+score: 47
+time: 13537.832999999999 us
+total memory allocated: 108130304 [B]

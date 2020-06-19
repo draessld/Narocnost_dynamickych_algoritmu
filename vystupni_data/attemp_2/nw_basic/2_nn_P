@@ -1,0 +1,10 @@
+s1: ACATTCTCTCT
+s2: TGTTAACTTAG
+lenght of s1: 11
+lenght of s2: 11
+ACATTCTC-TCT
+ ..||..| |..
+-TGTTAACTTAG
+score: -15
+time: 232.90299999967345 us
+total memory allocated: 31834112 [B]

@@ -1,0 +1,10 @@
+s1: TTAAAGGTTTATACCTTCCCAGGTAACAAACCAACCAACTTTCGATCTCTTGTAGATCTGTTCTCTAAACGAACTTTAAAATCTGTGTGGCTGTCACTCGGCTGCATGCTTAGTGCACTCACGCAGTATAATTAATAACTAATTACTGTCGTTGACAGGACACGAGTAACTCGTCTATCTTCTGCAGGCTG
+s2: TTTCCAGGTA
+lenght of s1: 191
+lenght of s2: 10
+TTAAAGGTTTATACCTTCCCAGGTAACAAACCAACCAACTTTCGATCTCTTGTAGATCTGTTCTCTAAACGAACTTTAAAATCTGTGTGGCTGTCACTCGGCTGCATGCTTAGTGCACTCACGCAGTATAATTAATAACTAATTACTGTCGTTGACAGGACACGAGTAACTCGTCTATCTTCTGCAGGCTG
+                                                                                                                                                                                    |.|.|||| |.
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------TTTCCAGG-TA
+score: -167
+time: 41335.022 us
+total memory allocated: 110100480 [B]

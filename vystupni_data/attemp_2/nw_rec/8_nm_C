@@ -1,0 +1,26 @@
+==58578== Memcheck, a memory error detector
+==58578== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==58578== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==58578== Command: ./../datasets/nw_rec_new/nw_rec_C.out ../sekvence1p/8_nm.txt
+==58578== 
+s1: TTAAATGGGATTTAACTGCTTTTGGCTTAGTTGCAGAGTGGTTTTTGGCATATATTCTTTTCACTAGGTTTTTCTA
+s2: CTTTTGGCTT
+lenght of s1: 75
+lenght of s2: 9
+TTAAATGGGATTTAACTGCTTTTGGCTTAGTTGCAGAGTGGTTTTTGGCATATATTCTTTTCACTAGGTTTTTCTA
+                  ||||||||||
+------------------CTTTTGGCTT
+score: 50
+time: 43386.000000
+saving time: 9224.000000
+getting time: 9306.000000
+creating time: 2131.000000
+==58578== 
+==58578== HEAP SUMMARY:
+==58578==     in use at exit: 0 bytes in 0 blocks
+==58578==   total heap usage: 7,199 allocs, 7,199 frees, 428,590 bytes allocated
+==58578== 
+==58578== All heap blocks were freed -- no leaks are possible
+==58578== 
+==58578== For lists of detected and suppressed errors, rerun with: -s
+==58578== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

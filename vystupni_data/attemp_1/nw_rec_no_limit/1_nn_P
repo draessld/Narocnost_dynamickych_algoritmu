@@ -1,0 +1,10 @@
+s1: ACTTCT
+s2: CAACCT
+lenght of string s1: 6
+lenght of string s2: 6
+--CACTTCT
+  .||.|
+TCAACCT--
+score:  7
+time: 558.6140000000128 us
+total memory allocated: 31780864 [B]

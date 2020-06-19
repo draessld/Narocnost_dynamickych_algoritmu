@@ -1,0 +1,9 @@
+s1:  TTAAAGGTTTATACCTTCCCAGGTAACAAACCAACCAACTTTCGATCTCTTGTAGATCTGTTCTCTAAACGAACTTTAAAATCTGTGTGGCTGTCACTCGGCTGCATGCTTAGTGCACTCACGCAGTATAATTAATAACTAATTACTGTCGTTGACAGGACACGAGTAACTCGTCTATCTTCTGCAGGCTG
+s2:  TTTCCAGGTA
+lenght of s1: 191
+lenght of s2: 10
+TTAAAGGTTTATACCTTCCCAGGTAACAAACCAACCAACTTTCGATCTCTTGTAGATCTGTTCTCTAAACGAACTTTAAAATCTGTGTGGCTGTCACTCGGCTGCATGCTTAGTGCACTCACGCAGTATAATTAATAACTAATTACTGTCGTTGACAGGACACGAGTAACTCGTCTATCTTCTGCAGGCTG
+                                                                                                                                                       ||.        |.||      |         |  |     
+-------------------------------------------------------------------------------------------------------------------------------------------------------TTT--------CCAG------G---------T--A-----
+score: -150
+time 878 us

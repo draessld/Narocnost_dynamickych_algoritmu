@@ -1,0 +1,26 @@
+==59533== Memcheck, a memory error detector
+==59533== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==59533== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==59533== Command: ./../datasets/nw_rec_new/nw_rec_C.out ../sekvence1p/16_nm.txt
+==59533== 
+s1: TGATGGTGTTGTCCAACAATTACCTGAAACTTACTTTACTCAGAGTAGAAATTTACAAGAATTTAAACCCAGGAGTCAAATGGAAATTGATTTCTTAGAATTAGCTATGGATGAATTCATTGAACGGTATAAATTAGAAGGCTATGCCTTCGAACATATCGTTTATGGAGATTTTAGTCATAGTCAGTTAGGTGGTTTACATCTACTGATT
+s2: ACTACCTGAA
+lenght of s1: 210
+lenght of s2: 9
+TGATGGTGTTGTCCAACAATTACCTGAAACTTACTTTACTCAGAGTAGAAATTTACAAGAATTTAAACCCAGGAGTCAAATGGAAATTGATTTCTTAGAATTAGCTATGGATGAATTCATTGAACGGTATAAATTAGAAGGCTATGCCTTCGAACATATCGTTTATGGAGATTTTAGTCATAGTCAGTTAGGTGGTTTACATCTACTGATT
+                  |.||||||||
+------------------ACTACCTGAA
+score: 41
+time: 111173.000000
+saving time: 24185.000000
+getting time: 40817.000000
+creating time: 6035.000000
+==59533== 
+==59533== HEAP SUMMARY:
+==59533==     in use at exit: 0 bytes in 0 blocks
+==59533==   total heap usage: 19,882 allocs, 19,882 frees, 2,954,709 bytes allocated
+==59533== 
+==59533== All heap blocks were freed -- no leaks are possible
+==59533== 
+==59533== For lists of detected and suppressed errors, rerun with: -s
+==59533== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

@@ -1,0 +1,10 @@
+s1: GAGATTCTTGACATTACACCATGTTCTTTTGGTGGTGTCAGTGTTATAACACCAGGAACAAATACTTCTAACCAGGTTGCTGTTCTTTATCAGGATGTTAACTGCACAGAAGTCCCTGTTGCTATTCATGCAGATCAACTTACTCCTACTTGGCGTGTTTATTCTACAGGTTCTAATGTTTTTCAAACACGTGCAGGCTGTTTAATAGGGGCTGAACATGTCAACAACTCA
+s2: CCATGTTCTT
+lenght of s1: 231
+lenght of s2: 10
+GAGATTCTTGACATTACACCATGTTCTTTTGGTGGTGTCAGTGTTATAACACCAGGAACAAATACTTCTAACCAGGTTGCTGTTCTTTATCAGGATGTTAACTGCACAGAAGTCCCTGTTGCTATTCATGCAGATCAACTTACTCCTACTTGGCGTGTTTATTCTACAGGTTCTAATGTTTTTCAAACACGTGCAGGCTGTTTAATAGGGGCTGAACATGTCAACAACTCA
+                                                                                                                                                                                                                            .||....|| .
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------CCATGTTCT-T
+score: -234
+time: 4020.4260000002987 us
+total memory allocated: 31899648 [B]

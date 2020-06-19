@@ -1,0 +1,10 @@
+s1: AAACCACGC
+s2: GAGTTCCTAT
+lenght of s1: 9
+lenght of s2: 10
+-AAACCACGC
+ |...|....
+GAGTTCCTAT
+score: -19
+time: 1167.4580000002877 us
+total memory allocated: 31977472 [B]

@@ -1,0 +1,23 @@
+==69500== Memcheck, a memory error detector
+==69500== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==69500== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==69500== Command: ./../datasets/nw_basic/nw_bt_C_basic.out ../sekvence1p/17_nm.txt
+==69500== 
+s1:  GAGATTCTTGACATTACACCATGTTCTTTTGGTGGTGTCAGTGTTATAACACCAGGAACAAATACTTCTAACCAGGTTGCTGTTCTTTATCAGGATGTTAACTGCACAGAAGTCCCTGTTGCTATTCATGCAGATCAACTTACTCCTACTTGGCGTGTTTATTCTACAGGTTCTAATGTTTTTCAAACACGTGCAGGCTGTTTAATAGGGGCTGAACATGTCAACAACTCA
+s2:  CCATGTTCTT
+lenght of s1: 231
+lenght of s2: 10
+GAGATTCTTGACATTACACCATGTTCTTTTGGTGGTGTCAGTGTTATAACACCAGGAACAAATACTTCTAACCAGGTTGCTGTTCTTTATCAGGATGTTAACTGCACAGAAGTCCCTGTTGCTATTCATGCAGATCAACTTACTCCTACTTGGCGTGTTTATTCTACAGGTTCTAATGTTTTTCAAACACGTGCAGGCTGTTTAATAGGGGCTGAACATGTCAACAACTCA
+                                                                                                                                                                                                                            .||....|| .
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------CCATGTTCT-T
+score: -234
+time 4740 us
+==69500== 
+==69500== HEAP SUMMARY:
+==69500==     in use at exit: 0 bytes in 0 blocks
+==69500==   total heap usage: 246 allocs, 246 frees, 95,092 bytes allocated
+==69500== 
+==69500== All heap blocks were freed -- no leaks are possible
+==69500== 
+==69500== For lists of detected and suppressed errors, rerun with: -s
+==69500== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

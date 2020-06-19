@@ -1,0 +1,10 @@
+s1: AACAG
+s2: TTATGATGTC
+lenght of s1: 5
+lenght of s2: 10
+-----AACAG
+     |....
+TTATGATGTC
+score: -16
+time: 104.1380000001979 us
+total memory allocated: 32038912 [B]

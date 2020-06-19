@@ -1,0 +1,9 @@
+s1:  GAAGTCACACCTTCGGGAACGTGGTTGACCTACACAGGTGCCATCAAATTGGATGACAAAGATCCAAATTTCAAAGATCAAGTCATTTTGCTGAATAAGCATATTGACGCATACAAAACATTCCCACCAACAGAGCCTAAAAAGGACAAAAAGAAGAAGGCTGATGAAACT
+s2:  CAGGTGCCAT
+lenght of s1: 171
+lenght of s2: 10
+GAAGTCACACCTTCGGGAACGTGGTTGACCTACACAGGTGCCATCAAATTGGATGACAAAGATCCAAATTTCAAAGATCAAGTCATTTTGCTGAATAAGCATATTGACGCATACAAAACATTCCCACCAACAGAGCCTAAAAAGGACAAAAAGAAGAAGGCTGATGAAACT
+                                                                                                                                                                |.|.||..| |
+----------------------------------------------------------------------------------------------------------------------------------------------------------------CAGGTGCCA-T
+score: -156
+time 41 us

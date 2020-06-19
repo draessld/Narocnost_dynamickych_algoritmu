@@ -1,0 +1,10 @@
+s1: ACGAACATGAAAATTATTCTTTTCTTGGCACTGATAACACTCGCTACTTGTGAGCTTTATCACTACCAAGAGTGTGTTAGAGGTACAACAGTACTTTTAAAAGAACCTTGCTCTTCTGGAACATACGAGGGCAATTCACCATTTCATCCTCTAGCTGATAACAAATTTGCACTGACTTGCTTTAGCACTCAATTTGCTTTTGCTTGTCCTGACGGCGTAAAACACGTCTATCAGTTACGTGCCAGATCAGT
+s2: TAACACTTGC
+lenght of s1: 251
+lenght of s2: 10
+ACGAACATGAAAATTATTCTTTTCTTGGCACTGATAACACTCGCTACTTGTGAGCTTTATCACTACCAAGAGTGTGTTAGAGGTACAACAGTACTTTTAAAAGAACCTTGCTCTTCTGGAACATACGAGGGCAATTCACCATTTCATCCTCTAGCTGATAACAAATTTGCACTGACTTGCTTTAGCACTCAATTTGCTTTTGCTTGTCCTGACGGCGTAAAACACGTCTATCAGTTACGTGCCAGATCAGT
+                                                                                                                                                                                                                                    ||.|    || |   .|  |   
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------TAAC----AC-T---TG--C---
+score: -210
+time: 266646.78399999975 us
+total memory allocated: 32026624 [B]

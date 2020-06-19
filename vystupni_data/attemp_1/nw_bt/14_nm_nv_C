@@ -1,0 +1,9 @@
+s1:  GAAGTCACACCTTCGGGAACGTGGTTGACCTACACAGGTGCCATCAAATTGGATGACAAAGATCCAAATTTCAAAGATCAAGTCATTTTGCTGAATAAGCATATTGACGCATACAAAACATTCCCACCAACAGAGCCTAAAAAGGACAAAAAGAAGAAGGCTGATGAAACT
+s2:  CAGGTGCCAT
+lenght of s1: 171
+lenght of s2: 10
+GAAGTCACACCTTCGGGAACGTGGTTGACCTACACAGGTGCCATCAAATTGGATGACAAAGATCCAAATTTCAAAGATCAAGTCATTTTGCTGAATAAGCATATTGACGCATACAAAACATTCCCACCAACAGAGCCTAAAAAGGACAAAAAGAAGAAGGCTGATGAAACT
+                                                                                                                                  ||| |  |      | |             |       | |
+----------------------------------------------------------------------------------------------------------------------------------CAG-G--T------G-C-------------C-------A-T
+score: -121
+time 1638 us

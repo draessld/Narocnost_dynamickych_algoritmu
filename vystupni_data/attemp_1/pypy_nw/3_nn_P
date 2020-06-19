@@ -1,0 +1,10 @@
+s1: CGCGGAGTACGATCGAGTGTA
+s2: TAGGGAGAGCTGCCTATATGG
+lenght of s1: 21
+lenght of s2: 21
+-CGCGGAGTACGATCGA-GTGTA
+ .| ||||..|...|.| .|| .
+TAG-GGAGAGCTGCCTATATG-G
+score: -17
+time: 4779.420000000035 us
+total memory allocated: 106119168 [B]

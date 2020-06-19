@@ -1,0 +1,10 @@
+s1: CGCGGAGTACGATCGAGTGTA
+s2: TAGGGAGAGCTGCCTATATGG
+lenght of string s1: 21
+lenght of string s2: 21
+GGAG
+||||
+GGAG
+score: 20
+time: 1838.5039999992969 us
+total memory allocated: 32018432 [B]

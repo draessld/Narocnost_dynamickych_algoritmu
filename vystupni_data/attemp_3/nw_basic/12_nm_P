@@ -1,0 +1,10 @@
+s1: AACATCAGCTTGTGTTTTGGCTGCTGAATGTACAATTTTTAAAGATGCTTCTGGTAAGCCAGTACCATATTGTTATGATACCAATGTACTAGAAGGTTCTGTTGCTTATGAAAGTTTACGCCCTGACACAC
+s2: GGCTGCTGAA
+lenght of s1: 131
+lenght of s2: 10
+AACATCAGCTTGTGTTTTGGCTGCTGAATGTACAATTTTTAAAGATGCTTCTGGTAAGCCAGTACCATATTGTTATGATACCAATGTACTAGAAGGTTCTGTTGCTTATGAAAGTTTACGCCCTGACACAC
+                                                                                                                        ..||| |..|.
+------------------------------------------------------------------------------------------------------------------------GGCTG-CTGAA
+score: -125
+time: 2295.1270000000077 us
+total memory allocated: 32059392 [B]

@@ -1,0 +1,38 @@
+==9698== Memcheck, a memory error detector
+==9698== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==9698== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==9698== Command: ./../datasets/nw_basic/nw_bt_C_basic.out ../sekvence1p/1_nm.txt
+==9698== 
+==9698== Invalid write of size 1
+==9698==    at 0x109EAB: main (in /home/dominika/dyn_prog_sequence_alignment_bachelor_workspace/datasets/nw_basic/nw_bt_C_basic.out)
+==9698==  Address 0x4dfbc8a is 0 bytes after a block of size 10 alloc'd
+==9698==    at 0x483677F: malloc (in /usr/lib64/valgrind/vgpreload_memcheck-amd64-linux.so)
+==9698==    by 0x109DF2: main (in /home/dominika/dyn_prog_sequence_alignment_bachelor_workspace/datasets/nw_basic/nw_bt_C_basic.out)
+==9698== 
+==9698== Invalid read of size 1
+==9698==    at 0x4839C94: strlen (in /usr/lib64/valgrind/vgpreload_memcheck-amd64-linux.so)
+==9698==    by 0x4C93805: __vfprintf_internal (in /lib64/libc-2.30.so)
+==9698==    by 0x4C7E64A: printf (in /lib64/libc-2.30.so)
+==9698==    by 0x109F77: main (in /home/dominika/dyn_prog_sequence_alignment_bachelor_workspace/datasets/nw_basic/nw_bt_C_basic.out)
+==9698==  Address 0x4dfbc8a is 0 bytes after a block of size 10 alloc'd
+==9698==    at 0x483677F: malloc (in /usr/lib64/valgrind/vgpreload_memcheck-amd64-linux.so)
+==9698==    by 0x109DF2: main (in /home/dominika/dyn_prog_sequence_alignment_bachelor_workspace/datasets/nw_basic/nw_bt_C_basic.out)
+==9698== 
+s1:  AAACCACGC
+s2:  GAGTTCCTAT
+lenght of s1: 9
+lenght of s2: 10
+-AAACCACGC
+ |...|....
+GAGTTCCTAT
+score: -19
+time 3566 us
+==9698== 
+==9698== HEAP SUMMARY:
+==9698==     in use at exit: 0 bytes in 0 blocks
+==9698==   total heap usage: 19 allocs, 19 frees, 82,040 bytes allocated
+==9698== 
+==9698== All heap blocks were freed -- no leaks are possible
+==9698== 
+==9698== For lists of detected and suppressed errors, rerun with: -s
+==9698== ERROR SUMMARY: 2 errors from 2 contexts (suppressed: 0 from 0)

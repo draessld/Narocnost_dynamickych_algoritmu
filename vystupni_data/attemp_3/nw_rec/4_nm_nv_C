@@ -1,0 +1,12 @@
+s1: ATAAATTAGAAGGCTATGCCTTCGAACATATCGTTT
+s2: CCTTCGAACA
+lenght of s1: 35
+lenght of s2: 9
+ATAAATTAGAAGGCTATGCCTTCGAACATATCGTTT
+                  ||||||||||
+------------------CCTTCGAACA
+score: 50
+time: 620.000000
+saving time: 105.000000
+getting time: 184.000000
+creating time: 34.000000

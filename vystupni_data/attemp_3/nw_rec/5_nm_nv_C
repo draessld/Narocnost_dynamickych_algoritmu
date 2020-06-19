@@ -1,0 +1,12 @@
+s1: CAGTTTACTCATTCTTACCTGGTGTTTATTCTGTTATTTACTTGTA
+s2: CTGGCGTTTA
+lenght of s1: 45
+lenght of s2: 9
+CAGTTTACTCATTCTTACCTGGTGTTTATTCTGTTATTTACTTGTA
+                  ||||.|||||
+------------------CTGGCGTTTA
+score: 41
+time: 2602.000000
+saving time: 433.000000
+getting time: 826.000000
+creating time: 151.000000

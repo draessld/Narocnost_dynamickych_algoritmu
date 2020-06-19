@@ -1,0 +1,23 @@
+==39860== Memcheck, a memory error detector
+==39860== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==39860== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==39860== Command: ./../datasets/nw_basic/nw_bt_C_basic.out ../sekvence1p/24_nm.txt
+==39860== 
+s1:  TTTTTAGTGCAGTTGGTAACATCTGTTACACACCATCAAAACTTATAGAGTACACTGACTTTGCAACATCAGCTTGTGTTTTGGCTGCTGAATGTACAATTTTTAAAGATGCTTCTGGTAAGCCAGTACCATATTGTTATGATACCAATGTACTAGAAGGTTCTGTTGCTTATGAAAGTTTACGCCCTGACACACGTTATGTGCTCATGGATGGCTCTATTATTCAATTTCCTAACACCTACCTTGAAGGTTCTGTTAGAGTGGTAACAACTTTTGATTCTGAGTACTGTAGGCACGGCACTTGTGAAAGATCAGAAGCTGGTGTTTGTGTATCTACTAGTGGTAGATGGGTACTTAACAATGATTATTAC
+s2:  ACATCTGCTA
+lenght of s1: 371
+lenght of s2: 10
+TTTTTAGTGCAGTTGGTAACATCTGTTACACACCATCAAAACTTATAGAGTACACTGACTTTGCAACATCAGCTTGTGTTTTGGCTGCTGAATGTACAATTTTTAAAGATGCTTCTGGTAAGCCAGTACCATATTGTTATGATACCAATGTACTAGAAGGTTCTGTTGCTTATGAAAGTTTACGCCCTGACACACGTTATGTGCTCATGGATGGCTCTATTATTCAATTTCCTAACACCTACCTTGAAGGTTCTGTTAGAGTGGTAACAACTTTTGATTCTGAGTACTGTAGGCACGGCACTTGTGAAAGATCAGAAGCTGGTGTTTGTGTATCTACTAGTGGTAGATGGGTACTTAACAATGAT-TATTAC
+                                                                                                                                                                                                                                                                                                                                                                         ..|| |..|| 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ACATCTGCTA-
+score: -372
+time 5464 us
+==39860== 
+==39860== HEAP SUMMARY:
+==39860==     in use at exit: 0 bytes in 0 blocks
+==39860==   total heap usage: 387 allocs, 387 frees, 103,572 bytes allocated
+==39860== 
+==39860== All heap blocks were freed -- no leaks are possible
+==39860== 
+==39860== For lists of detected and suppressed errors, rerun with: -s
+==39860== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

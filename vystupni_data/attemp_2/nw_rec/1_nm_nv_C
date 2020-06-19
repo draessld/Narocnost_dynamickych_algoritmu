@@ -1,0 +1,12 @@
+s1: AAACCACGC
+s2: GAGTTCCTAT
+lenght of s1: 8
+lenght of s2: 9
+AAACCACGC
+       |.
+-------GAGTTCCTAT
+score: 1
+time: 222.000000
+saving time: 35.000000
+getting time: 60.000000
+creating time: 15.000000

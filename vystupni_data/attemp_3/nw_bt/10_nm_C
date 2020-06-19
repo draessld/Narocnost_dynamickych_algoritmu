@@ -1,0 +1,23 @@
+==69351== Memcheck, a memory error detector
+==69351== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==69351== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==69351== Command: ./../datasets/nw_bt_n2d/nw_bt_C_n2d.out ../sekvence1p/10_nm.txt
+==69351== 
+s1:  AAAAATATTTGTTGATGGTGTTCCATTTGTAGTTTCAACTGGATACCACTTCAGAGAGCTAGGTGTTGTACATAATCAGGATGTAAACTTACATAG
+s2:  TGTTCCATTT
+lenght of s1: 96
+lenght of s2: 10
+AAAAATATTTGTTGATGGTGTTCCATTTGTAGTTTCAACTGGATACCACTTCAGAGAGCTAGGTGTTGTACATAATCAGGATGTAAACTTACATAG
+                                                                  |||.|     |         | ||   |  
+------------------------------------------------------------------TGTTC-----C---------A-TT---T--
+score: -46
+time 7167 us
+==69351== 
+==69351== HEAP SUMMARY:
+==69351==     in use at exit: 0 bytes in 0 blocks
+==69351==   total heap usage: 110 allocs, 110 frees, 87,212 bytes allocated
+==69351== 
+==69351== All heap blocks were freed -- no leaks are possible
+==69351== 
+==69351== For lists of detected and suppressed errors, rerun with: -s
+==69351== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

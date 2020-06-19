@@ -1,0 +1,10 @@
+s1: CACTTCT
+s2: TCAACCT
+lenght of s1: 7
+lenght of s2: 7
+-CACTTCT
+ || ..||
+TCA-ACCT
+score: 1
+time: 104.33899999995333 us
+total memory allocated: 31780864 [B]

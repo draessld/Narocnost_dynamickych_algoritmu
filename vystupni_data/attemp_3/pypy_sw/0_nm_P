@@ -1,0 +1,34 @@
+s1: AACAG
+s2: TTATGATGTC
+lenght of string s1: 5
+lenght of string s2: 10
+A
+|
+A
+A
+|
+A
+A
+|
+A
+A
+|
+A
+C
+|
+C
+A
+|
+A
+A
+|
+A
+G
+|
+G
+G
+|
+G
+score: 5
+time: 1356.3289999999895 us
+total memory allocated: 105807872 [B]

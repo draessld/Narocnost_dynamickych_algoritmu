@@ -1,0 +1,23 @@
+==37824== Memcheck, a memory error detector
+==37824== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==37824== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==37824== Command: ./../datasets/nw_basic/nw_bt_C_basic.out ../sekvence1p/10_nn.txt
+==37824== 
+s1:  ATAAAGTTTATTATGGTAATGCTTTAGATCAAGCCATTTCCATGTGGGCTCTTATAATCTCTGTTACTTCTAACTACTCAGGTGTAGTTAC
+s2:  ATGCTTTAGATCAAGCTATTTCCATGTGGGCTCTTATAATCTCTGTTACTTCTAACTACTCGGGTGTAGTTACAACTGTCATGTTCTTGGC
+lenght of s1: 91
+lenght of s2: 91
+ATAAAGTTTATTATGGTAATGCTTTAGATCAAGCCATTTCCATGTGGGCTCTTATAATCTCTGTTACTTCTAACTACTCAGGTGTAG-------T-T-A---------C
+                  ||||||||||||||||.||||||||||||||||||||||||||||||||||||||||||||.|||||||       | | |         |
+------------------ATGCTTTAGATCAAGCTATTTCCATGTGGGCTCTTATAATCTCTGTTACTTCTAACTACTCGGGTGTAGTTACAACTGTCATGTTCTTGGC
+score: 149
+time 6527 us
+==37824== 
+==37824== HEAP SUMMARY:
+==37824==     in use at exit: 0 bytes in 0 blocks
+==37824==   total heap usage: 108 allocs, 108 frees, 117,344 bytes allocated
+==37824== 
+==37824== All heap blocks were freed -- no leaks are possible
+==37824== 
+==37824== For lists of detected and suppressed errors, rerun with: -s
+==37824== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

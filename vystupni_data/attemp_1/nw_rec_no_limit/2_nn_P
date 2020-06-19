@@ -1,0 +1,10 @@
+s1: CATTCTCTCT
+s2: GTTAACTTAG
+lenght of string s1: 10
+lenght of string s2: 10
+ACATTCTCTCT--------
+        |.|
+--------TGTTAACTTAG
+score:  6
+time: 752.3319999993561 us
+total memory allocated: 31789056 [B]

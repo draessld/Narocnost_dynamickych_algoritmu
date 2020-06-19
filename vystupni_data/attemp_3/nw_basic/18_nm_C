@@ -1,0 +1,23 @@
+==38880== Memcheck, a memory error detector
+==38880== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==38880== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==38880== Command: ./../datasets/nw_basic/nw_bt_C_basic.out ../sekvence1p/18_nm.txt
+==38880== 
+s1:  ACGAACATGAAAATTATTCTTTTCTTGGCACTGATAACACTCGCTACTTGTGAGCTTTATCACTACCAAGAGTGTGTTAGAGGTACAACAGTACTTTTAAAAGAACCTTGCTCTTCTGGAACATACGAGGGCAATTCACCATTTCATCCTCTAGCTGATAACAAATTTGCACTGACTTGCTTTAGCACTCAATTTGCTTTTGCTTGTCCTGACGGCGTAAAACACGTCTATCAGTTACGTGCCAGATCAGT
+s2:  TAACACTTGC
+lenght of s1: 251
+lenght of s2: 10
+ACGAACATGAAAATTATTCTTTTCTTGGCACTGATAACACTCGCTACTTGTGAGCTTTATCACTACCAAGAGTGTGTTAGAGGTACAACAGTACTTTTAAAAGAACCTTGCTCTTCTGGAACATACGAGGGCAATTCACCATTTCATCCTCTAGCTGATAACAAATTTGCACTGACTTGCTTTAGCACTCAATTTGCTTTTGCTTGTCCTGACGGCGTAAAACACGTCTATCAGTTACGTGCCAGATCAGT
+                                                                                                                                                                                                                                                 ..|.|...|.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------TAACACTTGC
+score: -254
+time 4543 us
+==38880== 
+==38880== HEAP SUMMARY:
+==38880==     in use at exit: 0 bytes in 0 blocks
+==38880==   total heap usage: 266 allocs, 266 frees, 96,212 bytes allocated
+==38880== 
+==38880== All heap blocks were freed -- no leaks are possible
+==38880== 
+==38880== For lists of detected and suppressed errors, rerun with: -s
+==38880== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

@@ -1,0 +1,10 @@
+s1: CAGTTTACTCATTCTTACCTGGTGTTTATTCTGTTATTTACTTGTA
+s2: CTGGCGTTTA
+lenght of s1: 46
+lenght of s2: 10
+CAGTTTACTCATTCTTACCTGGTGTTTATTCTGTTATTTACTTGTA
+                  || | |       .|        || ||
+------------------CT-G-G-------CG--------TT-TA
+score: -5
+time: 14069.615999999563 us
+total memory allocated: 31969280 [B]
